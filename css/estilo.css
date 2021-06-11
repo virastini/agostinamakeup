@@ -1,0 +1,270 @@
+.logo{
+	width: 150px;
+	height: 35px;
+}
+
+.navbarc{
+	background-color: #ffb9a0 !important;
+	font-size: 22px;
+	font-family: 'Oranienbaum', serif;
+	margin-bottom: 20px;
+}
+
+
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.agosCss{
+	width: 50%;
+	height: 10%;
+	margin:auto;
+}
+
+
+.hola{
+	text-align: center;
+	margin: 30px;
+	font-size: 80px;
+	color:white;
+	font-family: 'Oranienbaum', serif;
+}
+
+.hola2{
+	text-align: center;
+	margin: 10px;
+	font-size: 60px;
+	font-family: 'Oranienbaum', serif;
+}
+
+.textoIndex2{
+	text-align: center;
+	font-size: 33px;
+	font-family: 'Oranienbaum', serif;
+}
+
+.textoIndex{
+	padding: 50px;
+}
+
+.subProductos{
+	color:black;
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Oranienbaum', serif;
+}
+
+.fotoIndex{
+	margin-top: 30px;
+		margin-left: 0px;
+	margin-right: 0px;
+}
+
+.subIndex{
+	color:white;
+	text-align: center;
+	font-size: 70px;
+	padding: 40px;
+	font-family: 'Oranienbaum', serif;
+
+}
+
+
+
+.titulot {
+	margin:20px;
+	text-align: center;
+	color:white;
+	font-family: 'Oranienbaum', serif;
+
+}
+
+.subTrabajos{
+	text-align: center;
+	font-size: 40px;
+	color:black;
+	font-family: 'Oranienbaum', serif;
+}
+
+.tituloP{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 30px;
+	color:white;
+	font-family: 'Oranienbaum', serif;
+}
+
+.textoP {
+		text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+	color:white;
+	font-family: 'Oranienbaum', serif;
+}
+
+.fotoTrabajos {
+	margin:20px;
+}
+
+.fotoTrabajosm {
+  display: flex;
+  width: 70%;
+  justify-content: stretch;
+}
+
+.fotoClases {
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+.tituloC {
+	margin-top:8px;
+	margin-bottom:15px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	font-family: 'Oranienbaum', serif;
+}
+.subtClases {
+	text-align: center;
+	color:white;
+	margin-top: 0px;
+	margin-bottom:5px;
+	font-size: 25px;
+	font-family: 'Oranienbaum', serif;
+}
+
+.subtClases2 {
+	text-align: center;
+	margin:20px;
+	font-size: 40px;
+	font-family: 'Oranienbaum', serif;
+}
+
+.textoClases {
+	text-align: center;
+	font-size: 22px;
+	font-family: 'Oranienbaum', serif;
+}
+
+.row3 {
+	margin-top: 50px;
+}
+
+
+.tituloCon {
+	margin-top:8px;
+	margin-bottom:15px;
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	font-family: 'Oranienbaum', serif;
+}
+
+.textoContacto{
+	text-align: center;
+	font-family: 'Oranienbaum', serif;
+	font-size:20px;
+}
+
+.contactoN{
+	width: 400px;
+	margin: 5px;
+
+}
+
+.consulta{
+	width: 400px;
+	height: 200px;
+	margin: 5px;
+}
+
+.enviar{
+margin: 5px;
+}
+
+body {
+
+background: rgb(255,185,160);
+background: linear-gradient(176deg, rgba(255,185,160,1) 32%, rgba(254,215,187,1) 71%, rgba(255,244,236,1) 100%);
+}
+
+footer {
+	margin-top: 120px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: #787474;
+	font-family: 'Oranienbaum', serif;
+	font-size: 21px;
+}
+
+.form {
+	background: url("../assets/img/novia5.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 490px;
+	width: 70%;
+	padding:60px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.boton {
+	background-color: grey;
+	border:grey;
+}
+
+.logoFooter {
+	padding: 0px;
+}
+.logoFooter1 {
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px){
+	.desaparecerM { display:none !important; }
+	.noviaM { width:100% !important;}
+	.claseM {width:60% !important;
+		margin-bottom: 10px !important;
+		height: 60% !important;}
+
+		.navbarc{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+	.form {
+	background: url("../assets/img/novia5.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 70%;
+	width: 100%;
+	padding:30px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+	footer {
+	margin-top: 60px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: #787474;
+	font-family: 'Oranienbaum', serif;
+	font-size: 18px;
+}
+
+.hola2{
+	text-align: center;
+	margin: 20px;
+	font-size: 47px;
+	font-family: 'Oranienbaum', serif;
+}
+
+.textoIndex2{
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Oranienbaum', serif;
+}
+
+}
